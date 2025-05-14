@@ -1,3 +1,4 @@
+import amirhosein_imani from './Amirhosein-Imani.jpg'
 import facebook_icon from './facebook_icon.svg'
 import instagram_icon from './instagram_icon.svg'
 import twitter_icon from './twitter_icon.svg'
@@ -18,6 +19,7 @@ import credit_star from './credit_star.svg'
 import profile_icon from './profile_icon.png'
 
 export const assets = {
+    amirhosein_imani,
     facebook_icon,
     instagram_icon,
     twitter_icon,
