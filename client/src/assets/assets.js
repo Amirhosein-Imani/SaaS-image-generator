@@ -37,18 +37,18 @@ export const assets = {
 
 export const stepsData = [
     {
-      title: 'Describe Your Vision',
-      description: 'Type a phrase, sentence, or paragraph that describes the image you want to create.',
+      title: 'آنچه در ذهن دارید را توصیف کنید',
+      description: 'یک کلمه ، جمله و یا پاراگراف تایپ کنید تا نصویر موردنظر شما تولید شود.',
       icon: step_icon_1,
     },
     {
-      title: 'Watch the Magic',
-      description: 'Our AI-powered engine will transform your text into a high-quality, unique image in seconds.',
+      title: 'جادو را تماشا کنید',
+      description: 'هوش مصنوعی با در نظر گرفتن درخواست شما یک تصویر با کیفیت تولید میکند.',
       icon: step_icon_2,
     },
     {
-      title: 'Download & Share',
-      description: 'Instantly download your creation or share it with the world directly from our platform.',
+      title: 'دانلود و به اشتراک گذاری',
+      description: 'بعد تولید تصویر بلافاصله میتوانید تصویر را دانلود و آن را به اشتراک بگذارید.',
       icon: step_icon_3,
     },
   ];
@@ -56,44 +56,44 @@ export const stepsData = [
 export const testimonialsData = [
     {
         image:profile_img_1,
-        name:'Donald Jackman',
-        role:'Graphic Designer',
+        name:'امیرحسین ایمانی',
+        role:'برنامه نویس و توسعه دهنده وب',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است.`
     },
     {
         image:profile_img_2,
-        name:'Richard Nelson',
-        role:'Content Creator',
+        name:'امیرحسین ایمانی',
+        role:'برنامه نویس و توسعه دهنده وب',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است.`
     },
     {
         image:profile_img_1,
-        name:'Donald Jackman',
-        role:' Graphic Designer',
+        name:'امیرحسین ایمانی',
+        role:'برنامه نویس و توسعه دهنده وب',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است.`
     },
 ]
 
 export const plans = [
     {
-      id: 'Basic',
-      price: 10,
-      credits: 100,
-      desc: 'Best for personal use.'
+      id: 'پایه',
+      price: '۱۰',
+      credits: '۱۰۰',
+      desc: 'مناسب برای استفاده شخصی'
     },
     {
-      id: 'Advanced',
-      price: 50,
-      credits: 500,
-      desc: 'Best for business use.'
+      id: 'پیشرفته',
+      price: '۵۰',
+      credits: '۵۰۰',
+      desc: 'مناسب برای استفاده تجاری'
     },
     {
-      id: 'Business',
-      price: 250,
-      credits: 5000,
-      desc: 'Best for enterprise use.'
+      id: 'سازمانی',
+      price: '۲۵۰',
+      credits: '۵۰۰۰',
+      desc: 'مناسب برای استفاده سازمانی'
     },
   ]

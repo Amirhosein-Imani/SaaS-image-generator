@@ -9,23 +9,23 @@ const Header = () => {
 
         <div className='text-stone-500 inline-flex text-center gap-2 bg-white px-6 py-1 rounded-full border border-neutral-500'>
 
-            <p>Amirhosein Imani Text To Image Generator</p>
+            <p>مبدل متن به تصویر امیرحسین ایمانی</p>
             <img src={assets.star_icon} alt="" />
 
         </div>
 
-        <h1 className='text-4xl max-w-[300px] sm:text-7xl sm:max-w-[590px] mx-auto mt-10 text-center'>Turn text to <span className='text-blue-600'>image</span>, in seconds</h1>
+        <h1 className='text-4xl max-w-[300px] sm:text-7xl sm:max-w-[590px] mx-auto mt-10 text-center font-semibold'>متن را در چند ثانیه به <span className='text-blue-600'>تصویر</span> تبدیل کنید.</h1>
 
-        <p className='text-center max-w-xl mx-auto mt-5'>Turn your imagination into visual art in seconds - just type and watch the magic happen.</p>
+        <p className='text-center max-w-xl mx-auto mt-10'>تصورات خود را در چند ثانیه به هنر بصری تبدیل کنید – فقط بنویسید و نظاره گر تحقق جادو باشید.</p>
 
-        <button className='text-white sm:text-lg w-auto bg-black mt-8 px-12 py-2.5 flex items-center gap-2 rounded-full'>
+        <button className='text-white sm:text-lg w-auto bg-black mt-10 px-12 py-2.5 flex items-center gap-2 rounded-full'>
 
-            Generate Images 
+            تولید تصاویر 
             <img className='h-6' src={assets.star_group} alt="" />
 
         </button>
 
-        <div className='flex flex-wrap justify-center mt-16 gap-3'>
+        <div className='flex flex-wrap justify-center mt-12 gap-3'>
 
           {
 
@@ -39,7 +39,7 @@ const Header = () => {
 
         </div>
 
-        <p className='mt-3 text-neutral-600'>Generated Images</p>
+        <p className='mt-5 text-neutral-600'>تصاویر تولید شده</p>
 
     </div>
 

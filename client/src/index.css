@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@font-face {
+
+  font-family: 'IranianSans';
+  src: url('./assets/Fonts/IranianSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 @import "tailwindcss";
 
 * {
-    font-family: Outfit;
+    font-family: 'IranianSans', sans-serif;
 }

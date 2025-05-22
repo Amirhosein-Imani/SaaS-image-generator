@@ -23,16 +23,16 @@ const Navbar = () => {
             {
 
                 user ? 
-                <div className='flex items-center gap-2 sm:gap-3'>
+                <div className='flex items-center gap-2 sm:gap-3 flex-row-reverse'>
 
                     <button onClick={() => navigate('/buy')} className='flex items-center gap-2 bg-blue-100 px-4 sm:px-6 py-1.5 sm:py-3 rounded-full hover:scale-105 transition-all duration-700'>
 
                         <img src={assets.credit_star} alt="Credit Star" className='w-5' />
-                        <p className='text-xs sm:text-sm font-medium text-gray-600'>Credits left: 50</p>
+                        <p className='text-xs sm:text-sm font-medium text-gray-600'>اعتبار باقی‌مانده: ۵۰</p>
 
                     </button>
 
-                    <p className='text-gray-600 max-sm:hidden pl-4'>Hi, Amirhsoein</p>
+                    <p className='text-gray-600 max-sm:hidden pl-4'>سلام، امیرحسین</p>
 
                     <div className='relative group'>
 
@@ -42,7 +42,7 @@ const Navbar = () => {
 
                             <ul className='list-none m-0 p-2 bg-white rounded-md border text-sm'>
 
-                                <li className='py-1 px-2 pr-10 cursor-pointer'>Logout</li>
+                                <li className='py-1 px-2 pr-10 cursor-pointer'>خروج</li>
 
                             </ul>
 
@@ -53,10 +53,10 @@ const Navbar = () => {
                 </div> 
                 
                 : 
-                <div className='flex items-center gap-2 sm:gap-5'>
+                <div className='flex items-center gap-2 sm:gap-5 flex-row-reverse'>
 
-                    <p onClick={() => navigate('/buy')} className='cursor-pointer'>Pricing</p>
-                    <button className='bg-zinc-800 text-white px-8 sm:px-10 py-2 text-sm rounded-full'>Login</button>
+                    <p onClick={() => navigate('/buy')} className='cursor-pointer'>تعرفه ها</p>
+                    <button className='bg-zinc-800 text-white px-8 sm:px-10 py-2 text-sm rounded-full'>ورود</button>
 
                 </div>
 
