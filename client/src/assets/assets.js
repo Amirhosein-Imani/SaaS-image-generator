@@ -6,8 +6,6 @@ import star_icon from './star_icon.svg'
 import rating_star from './rating_star.svg'
 import sample_img_1 from './sample_img_1.png'
 import sample_img_2 from './sample_img_2.png'
-import profile_img_1 from './profile_img_1.png'
-import profile_img_2 from './profile_img_2.png'
 import step_icon_1 from './step_icon_1.svg'
 import step_icon_2 from './step_icon_2.svg'
 import step_icon_3 from './step_icon_3.svg'
@@ -55,21 +53,21 @@ export const stepsData = [
 
 export const testimonialsData = [
     {
-        image:profile_img_1,
+        image:amirhosein_imani,
         name:'امیرحسین ایمانی',
         role:'برنامه نویس و توسعه دهنده وب',
         stars:5,
         text:`لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است.`
     },
     {
-        image:profile_img_2,
+        image:amirhosein_imani,
         name:'امیرحسین ایمانی',
         role:'برنامه نویس و توسعه دهنده وب',
         stars:5,
         text:`لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است.`
     },
     {
-        image:profile_img_1,
+        image:amirhosein_imani,
         name:'امیرحسین ایمانی',
         role:'برنامه نویس و توسعه دهنده وب',
         stars:5,
